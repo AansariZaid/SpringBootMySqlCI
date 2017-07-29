@@ -1,7 +1,8 @@
 language: java
 
 services:
- -mysql 
+  - mysql
+
 
 before_install:
- -mysql -e 'CREATE DATABASE myapp_test;'
+  - mysql -e 'CREATE DATABASE myapp_test;'
